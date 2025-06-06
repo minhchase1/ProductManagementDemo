@@ -49,12 +49,12 @@ namespace DataAccessObjects
             return listProducts;
         }
 
-        public void SaveProduct(Product p)
+        public  void SaveProduct(Product p)
         {
             listProducts.Add(p);
         }
 
-        public void UpdateProduct(Product product)
+        public  void UpdateProduct(Product product)
         {
             foreach (Product p in listProducts.ToList())
             {
@@ -69,7 +69,7 @@ namespace DataAccessObjects
             }
         }
 
-        public void DeleteProduct(Product product)
+        public  void DeleteProduct(Product product)
         {
             foreach (Product p in listProducts.ToList())
             {
@@ -80,7 +80,7 @@ namespace DataAccessObjects
             }
         }
 
-        public Product GetProductById(int id)
+        public  Product GetProductById(int id)
         {
             foreach (Product p in listProducts.ToList())
             {
