@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositorie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{FAF431AC-7C51-4BF9-97CA-B313594CAFC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFAPP", "WPFAPP\WPFAPP.csproj", "{633A5532-BDE3-40A0-99E9-CE6C77B80671}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{FAF431AC-7C51-4BF9-97CA-B313594CAFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAF431AC-7C51-4BF9-97CA-B313594CAFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAF431AC-7C51-4BF9-97CA-B313594CAFC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{633A5532-BDE3-40A0-99E9-CE6C77B80671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633A5532-BDE3-40A0-99E9-CE6C77B80671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633A5532-BDE3-40A0-99E9-CE6C77B80671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633A5532-BDE3-40A0-99E9-CE6C77B80671}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
